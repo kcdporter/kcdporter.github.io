@@ -1,0 +1,103 @@
+body {
+  background-image: linear-gradient(90deg, white 58%, rgba(54, 155, 15, 0.698) 300px, white);
+  font-family: 'Nunito', sans-serif;
+
+  header{
+    margin-top: 5%;
+    height: 175px;
+    padding: 20px;
+    background: url("../images/header.png");
+    padding-right:10%;
+
+    .align{
+      display:flex;
+      justify-content: space-between;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+
+    #profile-picture{
+      width: auto;
+      height: 175px;
+      padding-right: 100px;
+    }
+
+    .name{
+      font-size: 36px;
+      margin:0;
+      padding-top:40px;
+    }
+    .icon{
+      height: 20px;
+      width: 20px;
+    }
+    .icon2{
+      height: 20px;
+      width: 20px;
+      padding-left: 40px;
+    }
+    .contact{
+      display:flex;
+      align-self: baseline;
+    }
+    .contact-info{
+      display:flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      align-items: center;
+      padding-top: 10px;
+      width: auto;
+      height: 35px;
+      font-size: 24px;
+      margin:0;
+    }
+    a{
+     color: black !important;
+    }
+  }
+  main{
+    display:flex;
+    padding-right: 5%;
+    margin-left: 10%;
+    margin-right:5%;
+    .heading{
+      background: #f2c2f5;
+    }
+    .left{
+      width: 60%;
+      margin-right: 10px;
+      a{
+        color: black !important;
+        font-size: 18px;
+        font-weight: bold;
+       }
+    }
+    .right{
+      margin-left: 30px;
+      width: 40%;
+    }
+    .list{
+      display: flex;
+      justify-content: space-between;
+      padding-right: 10%;
+    }
+    .align{
+      display:flex;
+      justify-content: space-between;
+      margin-right: 30px;
+    }
+    p{
+      margin:0;
+    }
+  }
+
+  h3{
+    margin:0;
+    font-weight: bold;
+  }
+
+  h4{
+    margin:0;
+    justify-content: flex-end;
+  }
+}
