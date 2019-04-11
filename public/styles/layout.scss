@@ -4,10 +4,13 @@ body {
 
   header{
     margin-top: 5%;
+    margin-left: -10px;
     height: 175px;
+    width:100%;
     padding: 20px;
     background: url("../images/header.png");
     padding-right:10%;
+    position: fixed;
 
     .align{
       display:flex;
@@ -58,6 +61,7 @@ body {
   main{
     display:flex;
     padding-right: 5%;
+    padding-top: 18%;
     margin-left: 10%;
     margin-right:5%;
     .heading{
@@ -68,7 +72,7 @@ body {
       margin-right: 10px;
       a{
         color: black !important;
-        font-size: 18px;
+        font-size: 24px;
         font-weight: bold;
        }
     }
@@ -80,6 +84,12 @@ body {
       display: flex;
       justify-content: space-between;
       padding-right: 10%;
+    }
+    .span{
+      padding-top:0;
+    }
+    ul{
+      margin-top:0;
     }
     .align{
       display:flex;

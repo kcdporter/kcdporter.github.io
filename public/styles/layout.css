@@ -5,10 +5,13 @@ body {
 
 body header {
   margin-top: 5%;
+  margin-left: -10px;
   height: 175px;
+  width: 100%;
   padding: 20px;
   background: url("../images/header.png");
   padding-right: 10%;
+  position: fixed;
 }
 
 body header .align {
@@ -81,6 +84,7 @@ body main {
   display: -ms-flexbox;
   display: flex;
   padding-right: 5%;
+  padding-top: 18%;
   margin-left: 10%;
   margin-right: 5%;
 }
@@ -96,7 +100,7 @@ body main .left {
 
 body main .left a {
   color: black !important;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: bold;
 }
 
@@ -113,6 +117,14 @@ body main .list {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding-right: 10%;
+}
+
+body main .span {
+  padding-top: 0;
+}
+
+body main ul {
+  margin-top: 0;
 }
 
 body main .align {
