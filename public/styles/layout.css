@@ -26,8 +26,9 @@ body header .align {
 
 body header #profile-picture {
   width: auto;
-  height: 175px;
-  padding-right: 100px;
+  height: 200px;
+  margin-top: -1%;
+  margin-right: 10%;
 }
 
 body header .name {
@@ -39,19 +40,19 @@ body header .name {
 body header .icon {
   height: 40px;
   width: 40px;
-  padding-right: 5px;
+  padding-right: 10px;
 }
 
 body header .icon2 {
   height: 40px;
   width: 40px;
   padding-left: 40px;
-  padding-left: 40px;
+  padding-right: 10px;
 }
 
 body header .icon3 {
-  height: 55px;
-  width: 55px;
+  height: 50px;
+  width: 50px;
   padding-left: 40px;
 }
 
@@ -75,15 +76,24 @@ body header .contact-info {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-size: 18px;
   padding-top: 10px;
   width: auto;
   height: 35px;
-  font-size: 24px;
   margin: 0;
 }
 
 body header a {
-  color: black !important;
+  color: black;
+  font-weight: bold;
+}
+
+body header a:visited {
+  color: #e74795;
+}
+
+body header a:hover {
+  color: #7dbc69;
 }
 
 body main {
@@ -105,13 +115,20 @@ body main .left {
 }
 
 body main .left a {
-  color: black !important;
-  font-size: 24px;
+  color: black;
   font-weight: bold;
 }
 
+body main .left a:visited {
+  color: #cf5693;
+}
+
+body main .left a:hover {
+  color: #7dbc69;
+}
+
 body main .right {
-  margin-left: 30px;
+  margin-left: 40px;
   width: 40%;
 }
 
@@ -145,6 +162,14 @@ body main .align {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-right: 30px;
+}
+
+body main .project-link {
+  font-size: 24px;
+}
+
+.project-link body main:hover {
+  color: Green;
 }
 
 body main p {
