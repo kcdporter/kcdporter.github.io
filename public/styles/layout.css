@@ -85,7 +85,7 @@ body header .contact-info {
 
 body header a {
   color: black;
-  font-weight: bold;
+  font-size: 18px;
 }
 
 body header a:visited {
