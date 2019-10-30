@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/kcdporter/Kira_Porter_Resume/issues"
   },
-  "homepage": "https://github.com/kcdporter/Kira_Porter_Resume#readme"
+  "homepage": "https://github.com/kcdporter/Kira_Porter_Resume#readme",
+  "dependencies": {
+    "css-grid": "^1.0.7"
+  }
 }
