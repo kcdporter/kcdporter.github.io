@@ -1,0 +1,85 @@
+header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1 1 1;
+      grid-template-columns: 1 1 1;
+      grid-template-areas: 'basic logo social';
+  margin: 0 15% 0 15%;
+  position: center;
+}
+
+header #basic {
+  font-size: 1.5em;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: basic;
+  display: -ms-grid;
+  display: grid;
+  justify-items: end;
+      grid-template-areas: "resume resume" "phone email";
+}
+
+header #basic a {
+  margin: 30px 0 0 0;
+}
+
+header #basic .phone {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: phone;
+}
+
+header #basic .email {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: email;
+}
+
+header #basic .resume {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: resume;
+}
+
+header .logo {
+  height: 400px;
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: logo;
+}
+
+header #social {
+  font-size: 1.5em;
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: social;
+  display: -ms-grid;
+  display: grid;
+  justify-items: start;
+      grid-template-areas: 'linkedin linkedin' 'github twitter';
+}
+
+header #social a {
+  margin: 30px 0 0 0;
+}
+
+header #social .github {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: github;
+}
+
+header #social .twitter {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: twitter;
+}
+
+header #social .linkedin {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: linkedin;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,56 @@
+header{
+    display: grid;
+    grid-template-columns: 1 1 1;
+    grid-template-areas:
+    'basic logo social';
+    margin:0 15% 0 15%; 
+    position: center;
+    #basic{
+        font-size:1.5em;
+        grid-area: basic;
+        display: grid;
+        justify-items: end;
+        grid-template-areas:
+        "resume resume"
+        "phone email"
+        ;
+        
+        a{
+            margin: 30px 0 0 0;
+        }
+        .phone{
+            grid-area: phone;
+        }
+        .email{
+            grid-area: email;
+        }
+        .resume{
+            grid-area: resume;
+        }
+    }
+    .logo{
+        height: 400px;
+        grid-area: logo;
+    }
+    #social{
+        font-size: 1.5em;
+        grid-area: social;
+        display: grid;
+        justify-items: start;
+        grid-template-areas: 
+        'linkedin linkedin'
+        'github twitter';
+        a{
+            margin: 30px 0 0 0;
+        }
+        .github{
+            grid-area: github;
+        }
+        .twitter{
+            grid-area: twitter;
+        }
+        .linkedin{
+            grid-area: linkedin;
+        }
+    }
+}

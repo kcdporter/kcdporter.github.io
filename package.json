@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/kcdporter/Kira_Porter_Resume#readme",
   "dependencies": {
-    "css-grid": "^1.0.7"
+    "css-grid": "^1.0.7",
+    "jquery": "^3.4.1",
+    "sass": "^1.23.1"
   }
 }
